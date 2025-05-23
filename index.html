@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cafe Corner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8ec4ea7e0c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="home">
+        <div class="container-lg mx-3">
+            <a class="navbar-brand " href="#home" id="logo-pic"><img class="rounded" src="images/logo.png" alt="Logo"
+                    width="200" height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container justify-content-end">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#product">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blogs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                    <h1 class="display-4 text-white">Welcome to Our Coffee Shop</h1>
+                    <p class="lead text-white">Start your day with the perfect brew.</p>
+                    <button class="btn btn-light mt-3">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="py-5 my-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <h2 class="text-uppercase text-center pb-5 fw-bold">About
+                    <span class="text-warning">Us</span>
+                </h2>
+            </div>
+            <div class="row align-items-center">
+                <!-- Left Side: Image -->
+                <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/about.png" class="img-fluid rounded" alt="About Us">
+                </div>
+
+                <!-- Right Side: Text -->
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+
+                    <p class="lead fw-bold">What Makes Our Coffee
+                        Special?</p>
+                    <p>
+                        Our beans are sourced from the finest
+                        plantations and brewed
+                        with care. Whether
+                        you're looking for a
+                        bold
+                        espresso or a smooth
+                        cappuccino, we have
+                        something to satisfy
+                        every taste.
+                    </p>
+                    <button class="btn coffee-btn mt-3">Learn
+                        More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- top Categories -->
+    <section id="top-categories" class="py-5 my-5">
+        <div class="container">
+            <h2 class="text-center text-uppercase mb-4 fw-bold">Top <span class="coffee-text">Categories</span></h2>
+            <div class="row">
+                <!-- card1 -->
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm">
+                        <img src="images/c1.png" alt="c1" class="card-img-top rounded">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title mt-1 mb-0">Espresso</h5>
+                    </div>
+                </div>
+
+                <!-- card2 -->
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm">
+                        <img src="images/c2.png" alt="c2" class="card-img-top rounded">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title mt-1 mb-0">Cappuccino</h5>
+                    </div>
+                </div>
+
+                <!-- card3 -->
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm">
+                        <img src="images/c3.png" alt="c3" class="card-img-top rounded">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title mt-1 mb-0">latte</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <Menu> -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 text-uppercase fw-bold">Our <span class="coffee-text">Menu</span></h2>
+            <div class="row">
+
+                <!-- menu1 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/m1.png" class="card-img-top img-fluid rounded" alt="Espresso">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Espresso</h5>
+                            <p class="card-text text-muted">$3.99</p>
+                            <button class="btn btn-sm btn-outline-dark">
+                                <i class="fas fa-shopping-cart"></i> Buy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- menu2 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/m2.png" class="card-img-top img-fluid rounded" alt="Espresso">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Cappuccino </h5>
+                            <p class="card-text text-muted">$2.99</p>
+                            <button class="btn btn-sm btn-outline-dark">
+                                <i class="fas fa-shopping-cart"></i> Buy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- menu3 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/m3.png" class="card-img-top img-fluid rounded" alt="Espresso">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Latte Macchiato</h5>
+                            <p class="card-text text-muted">$4.99</p>
+                            <button class="btn btn-sm btn-outline-dark">
+                                <i class="fas fa-shopping-cart"></i> Buy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- menu4 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/m4.png" class="card-img-top img-fluid rounded" alt="Espresso">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Cold Brew</h5>
+                            <p class="card-text text-muted">$3.50</p>
+                            <button class="btn btn-sm btn-outline-dark">
+                                <i class="fas fa-shopping-cart"></i> Buy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- menu5 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/m5.png" class="card-img-top img-fluid rounded" alt="Espresso">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Mocha Delight</h5>
+                            <p class="card-text text-muted">$2.99</p>
+                            <button class="btn btn-sm btn-outline-dark">
+                                <i class="fas fa-shopping-cart"></i> Buy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- menu6 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/m6.png" class="card-img-top img-fluid rounded" alt="Espresso">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Caramel Latte</h5>
+                            <p class="card-text text-muted">$1.99</p>
+                            <button class="btn btn-sm btn-outline-dark">
+                                <i class="fas fa-shopping-cart"></i> Buy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- menu7 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/m7.png" class="card-img-top img-fluid rounded" alt="Espresso">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Hazelnut Cappuccino</h5>
+                            <p class="card-text text-muted">$4.05</p>
+                            <button class="btn btn-sm btn-outline-dark">
+                                <i class="fas fa-shopping-cart"></i> Buy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- menu8 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/m8.png" class="card-img-top img-fluid rounded" alt="Espresso">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Vanilla Iced Coffee </h5>
+                            <p class="card-text text-muted">$4.99</p>
+                            <button class="btn btn-sm btn-outline-dark">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products  -->
+    <section id="product" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 text-uppercase fw-bold">Our <span class="coffee-text">Products</span></h2>
+            <div class="row">
+                <!-- product1  -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/p1.png" alt="" class="card-img-top img-fluid rounded">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Espresso Black 100g</h5>
+                            <p class="card-text text-muted">$9.99</p>
+                            <button class="btn btn-md btn-outline-dark">
+                                <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- product2  -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/p2.png" alt="" class="card-img-top img-fluid rounded">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Cappuccino Mix 50g</h5>
+                            <p class="card-text text-muted">$19.99</p>
+                            <button class="btn btn-md btn-outline-dark">
+                                <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- product3  -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/p3.png" alt="" class="card-img-top img-fluid rounded">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Espresso Roasted 25g</h5>
+                            <p class="card-text text-muted">$15.55</p>
+                            <button class="btn btn-md btn-outline-dark">
+                                <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- product4  -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="images/p4.png" alt="" class="card-img-top img-fluid rounded">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-1">Nescafe Espresso 50g</h5>
+                            <p class="card-text text-muted">$10.99</p>
+                            <button class="btn btn-md btn-outline-dark">
+                                <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery  -->
+    <section class="py-5" id="gallery">
+        <div class="container">
+            <h2 class="text-center mb-5 text-uppercase fw-bold">Our <span class="coffee-text">Gallery</span></h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card no-hover">
+                        <img src="images/g1.png" class="card-img-top img-fluid rounded" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card no-hover">
+                        <img src="images/g2.png" class="card-img-top img-fluid rounded" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card no-hover">
+                        <img src="images/g3.png" class="card-img-top img-fluid rounded" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card no-hover">
+                        <img src="images/g4.png" class="card-img-top img-fluid rounded" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card no-hover">
+                        <img src="images/g5.png" class="card-img-top img-fluid rounded" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card no-hover">
+                        <img src="images/g6.png" class="card-img-top img-fluid rounded" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="py-5" id="contact">
+        <div class="container pe-lg-5 " id="contact-container">
+            <div class="row">
+
+                <!-- Form  -->
+                <div class="col-lg-6 mb-4">
+                    <h2 class="my-3 ms-5 text-uppercase fw-bold">Contact <span class="coffee-text">Us</span></h2>
+                    <form action="#">
+                        <div class="mb-3">
+                            <label for="name" class="form-label ms-3">Enter Your Name </label>
+                            <input type="text" class="form-control ms-3 p-2 width-adjust" id="name"
+                                placeholder="Kit Haarington" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label ms-3">Enter Your Email </label>
+                            <input type="text" class="form-control ms-3 p-2 width-adjust" id="email"
+                                placeholder="Kit@outlook.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="no" class="form-label ms-3">Enter Your Phone Number </label>
+                            <input type="text" class="form-control ms-3 p-2 width-adjust" id="no"
+                                placeholder="+1 92479457" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="address" class="form-label ms-3">Enter Your Address </label>
+                            <input type="text" class="form-control ms-3 p-2 width-adjust" id="address"
+                                placeholder="No:7 East Coast Road ,New Jersey" required>
+                        </div>
+                        <button type="submit" class="btn coffee-btn mt-2 ms-4">Send</button>
+                    </form>
+                </div>
+
+                <!-- Info  -->
+                <div class="col-lg-6 mt-4 mb-4" id="info-container">
+                    <h2 class="my-3 ms-5 text-uppercase fw-bold">Info</h2>
+                    <div class="p-4 border-0 rounded  h-100">
+                        <h5 class="mb-4"><i class="fas fa-envelope text-light"></i><span> Cafecorner@gmail.com</span>
+                        </h5>
+                        <h5 class="mb-4"><i class="fa-solid fa-phone-volume text-light"></i><span> +91 7904571261</span>
+                        </h5>
+                        <h5 class="mb-4"><i class="fas fa-map-marker-alt text-light"></i><span> No:77 2nd St, New York,
+                                NY 10011</span> </h5>
+                        <h5 class="mb-4"><i class="fa-brands fa-instagram text-light"></i><span> Cafe Corner</span>
+                        </h5>
+                        <h5 class="mb-4"><i class="fa-brands fa-facebook text-light"></i><span> Cafecorner Coffee
+                                Shop</span> </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs -->
+
+    <section id="blog" class="py-5">
+        <h2 class="text-center mb-5 text-uppercase fw-bold">Latest <span class="coffee-text">Blogs</span></h2>
+        <div class="container">
+            <div class="row">
+                <!-- Card1  -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card shadow-sm no-hover h-100">
+                        <img src="images/b1.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">5 Reasons to Start Your Morning at a Local Coffee Shop</h4>
+                            <h6>Date: 12 May 2025</h6>
+                            <p>
+                                There’s something special about starting your day at a cozy coffee shop — the aroma, the
+                                calm vibe, and that first sip. Discover why local cafes are more than just places for
+                                caffeine.
+                            </p>
+                            <button class="btn coffee-btn">Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card2  -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card shadow-sm no-hover h-100">
+                        <img src="images/b2.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Behind the Beans: How We Brew the Perfect Cup</h4>
+                            <h6>Date: 8 May 2025</h6>
+                            <p>
+                                Every cup of coffee tells a story. From sourcing high-quality beans to carefully
+                                controlling brew times, we take pride in serving excellence — one cup at a time.
+                            </p>
+                            <button class="btn coffee-btn">Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card3  -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card shadow-sm no-hover h-100">
+                        <img src="images/b3.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Top 3 Must-Try Drinks at Our Coffee Shop</h4>
+                            <h6>Date: 2 May 2025</h6>
+                            <p>
+                                Not sure what to order? Here are three customer-favorite drinks that keep everyone
+                                coming back — from rich mochas to creamy caramel lattes.
+                            </p>
+                            <button class="btn coffee-btn">Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer id="footer" class="py-4 footer-container text-center">
+        <div class="container">
+            <div class="row my-4">
+                <div class="text-center">
+                    <a href="#home">
+                        <img src="images/logo.png" alt="logo" class="rounded" width="150">
+                    </a>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="text-center">
+                    <a href="#" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white me-4"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-4"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <h6>Designed By <span class="text-warning">Sudhir</span></h6>
+            </div>
+            <div class="row">
+                <p>&copy; <span>Cafe Corner</span>. All Rights Reserved.</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- ScrollUp Button  -->
+    <a href="#home" class="scroll-up-btn">
+        <img src="images/up-arrow.png" alt="Scroll to Top" width="50">
+    </a>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

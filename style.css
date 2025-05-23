@@ -1,0 +1,142 @@
+a.nav-link{
+    color: white;
+    /* border-bottom: 2px solid white; */
+    margin: 5px 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a.nav-link:hover,a.nav-link:focus{
+    transform: translateY(-5%);
+    color: #EFDCAB;
+}
+body{
+    background-color:#F2F6D0;
+}
+.bg-body-tertiary{
+    background-color: #443627 !important;
+}
+#logo-pic{
+    border-radius: 10px !important;
+}
+.navbar-toggler {
+  border-color: white; /* border of the button */
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  background-image: url('images/bc3.png'); /* your background image */
+  background-size: cover;
+  background-position: right center; /* keeps coffee part always visible */
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    background-position: right center; /* adjust for small screens */
+  }
+
+  .hero-section h1 {
+    font-size: 30px;
+  }
+
+  .hero-section p {
+    font-size: 16px;
+  }
+}
+
+#top-categories h2 span {
+  color: #b2744c;
+}
+
+
+#about h2 span {
+  color: #b2744c !important; /* coffee color */
+}
+
+#about p {
+  color: #333;
+}
+
+.coffee-btn {
+  background-color: #b2744c;
+  color: white;
+  /* font-weight: bold; */
+  border: none;
+  transition: 0.3s ease;
+}
+
+.coffee-btn:hover {
+  background-color: #8e5e3a; /* slightly darker on hover */
+  color: white;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.coffee-text{
+    color: #b2744c;
+}
+.no-hover{
+  transform: none !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#contact-container{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+.width-adjust{
+    width: 70%;
+}
+#info-container{
+    background-color: #4B352A;
+    color: white !important;
+    border-radius: 15px;
+}
+.footer-container{
+    background-color: #4B352A !important;
+    color: white !important;
+}
+#footer i {
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+#footer i:hover {
+    transform: scale(1.5);
+  color: #b2744c;
+}
+
+.scroll-up-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  display: inline-block;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.scroll-up-btn img {
+  width: 50px;
+  height: auto;
+}
+
+.scroll-up-btn:hover {
+  transform: scale(1.1);
+}
