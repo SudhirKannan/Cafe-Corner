@@ -14,7 +14,7 @@ Welcome to **Cafe Corner**, a fully responsive and visually engaging single-page
 
 ## 🎥 Preview (GIF)
 
-![Cafe Corner Preview](images/demo.gif)
+![Cafe Corner Preview](images/Demo.gif)
 
 ---
 
